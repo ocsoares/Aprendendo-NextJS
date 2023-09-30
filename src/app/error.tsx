@@ -1,3 +1,5 @@
+// EXEMPLO do Próprio NextJS !!
+
 // Error components must be Client Components !!!!
 "use client";
 
