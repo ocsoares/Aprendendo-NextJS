@@ -1,3 +1,6 @@
+// Essa rota vai ser acessada em "first/subroute/myroute" !!!
+
+// Exportar SEMPRE com "export default" !!!
 export default function MyRoute() {
   return (
     <div>
@@ -6,6 +9,8 @@ export default function MyRoute() {
   );
 }
 
+// OUTRA Maneira de se USAR !!!
+// -----------------------------------
 // const MyRoute = () => {
 //     return (
 //         <div>
