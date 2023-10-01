@@ -1,4 +1,4 @@
-// TIRAR DEPOIS !!
+// TIRAR ESSA REGRA DEPOIS !!
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
 // EXEMPLO do Próprio NextJS !!!
