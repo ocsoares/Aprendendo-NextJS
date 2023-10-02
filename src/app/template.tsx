@@ -6,7 +6,7 @@ import { PropsWithChildren } from "react";
 export default function Template({ children }: PropsWithChildren) {
   return (
     <div>
-      <h3>Template aplicado !</h3>
+      <h1>Template aplicado !</h1>
       {children}
     </div>
   );

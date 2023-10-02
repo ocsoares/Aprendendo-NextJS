@@ -19,7 +19,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
     <html lang="pt-BR">
       <body>
         <header>
-          <h3>Root Layout aplicado !</h3>
+          <h1>Root Layout aplicado !</h1>
         </header>
         {children}
       </body>
