@@ -4,6 +4,9 @@
 // ------------------------------------------------------------------------------
 // OBS: Usando "use client" a Função NÃO pode ser ASSÍNCRONA !!!
 
+// ATENÇÃO: Também PODE usar o "use client" APENAS DENTRO de um Componente, para NÃO
+// tornar a Página Inteira Server Client (FORA do Servidor) !!!
+
 "use client";
 
 import { useState } from "react";
