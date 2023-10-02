@@ -1,5 +1,5 @@
 export async function SlowMyRepos() {
-  await new Promise((resolve) => setTimeout(resolve, 650));
+  await new Promise((resolve) => setTimeout(resolve, 3000));
 
   const response = await fetch("https://api.github.com/users/ocsoares/repos", {
     next: { revalidate: 86400 },

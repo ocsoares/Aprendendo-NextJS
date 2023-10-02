@@ -1,7 +1,6 @@
 export async function SlowCEP() {
   // Espera 5 SEGUNDOS ANTES de EXECUTAR o Componente !!!
-  // OBS: Por ALGUM MOTIVO, se colocar Muitos segundos DÁ ERRO (???) !!!!
-  await new Promise((resolve) => setTimeout(resolve, 1000));
+  await new Promise((resolve) => setTimeout(resolve, 5000));
 
   const response = await fetch("https://viacep.com.br/ws/01002000/json/", {
     next: { revalidate: 86400 },
