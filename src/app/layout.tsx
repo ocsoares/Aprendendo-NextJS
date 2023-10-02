@@ -16,9 +16,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <div>
-      <h3>Root Layout aplicado !</h3>
-      {children}
-    </div>
+    <html lang="pt-BR">
+      <body>
+        <header>
+          <h3>Root Layout aplicado !</h3>
+        </header>
+        {children}
+      </body>
+    </html>
   );
 }
